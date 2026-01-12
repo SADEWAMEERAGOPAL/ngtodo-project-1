@@ -17,7 +17,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { TodoDashboardComponent } from './todo-dashboard/todo-dashboard.component';
 import { TodoFormComponent } from './todo-form/todo-form.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
-import { ConfirmDialogComponent } from './shared/confirm-dialog/confirm-dialog.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +25,6 @@ import { ConfirmDialogComponent } from './shared/confirm-dialog/confirm-dialog.c
     TodoDashboardComponent,
     TodoFormComponent,
     TodoListComponent,
-    ConfirmDialogComponent
   ],
   imports: [
     BrowserModule,
